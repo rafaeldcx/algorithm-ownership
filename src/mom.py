@@ -51,7 +51,7 @@ class Mom:
                             for s in aux:
                                 if s not in self.modulos and s is not None:
                                     self.modulos.append(s)
-            print(f"Modulos: {self.modulos}")  # Debug print               
+            #print(f"Modulos: {self.modulos}")  # Debug print               
         except Exception as e:
             print(f"Error in principais_modulos_centralidade: {e}")
 
@@ -152,7 +152,7 @@ class Mom:
                     propriedade_list.append(porcentagem)
 
                 self.propriedades.append(propriedade_list)
-                print(f"Propriedades do módulo {modulo}: {propriedade_list}")
+                #print(f"Propriedades do módulo {modulo}: {propriedade_list}")
 
         except Exception as e:
             print(f"Error in calcular_propriedade: {e}")
