@@ -20,7 +20,7 @@ Esta ferramenta utiliza como entrada bases de dados em CSV geradas pela mineraç
 ```bash
 :~$ python3 main.py
 ```
-Isso irá gerar uma matriz de propriedade no arquivo exemplo.csv dentro do diretório principal.Na execução, o programa mostrará que está "Calculando a propriedade...", indicando uma lista de diretórios e os valores de centralidade desses diretórios dentro do projeto. O programa demonstra a geração do arquivo CSV com a mensagem "Salvando em exemplo.csv". Após gerar esse arquivo, ele exibirá a mensagem "Escrito com sucesso".
+Isso irá gerar uma matriz de propriedade no arquivo exemplo.csv dentro do diretório principal. Na execução, o programa mostrará que está "Calculando a propriedade...", indicando uma lista de diretórios e os valores de centralidade desses diretórios dentro do projeto. O programa demonstra a geração do arquivo CSV com a mensagem "Salvando em exemplo.csv". Após gerar esse arquivo, ele exibirá a mensagem "Escrito com sucesso".
 
 ## **Personalizando o Código**
 
