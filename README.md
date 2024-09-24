@@ -26,15 +26,15 @@ Isso irá gerar uma matriz de propriedade no arquivo exemplo.csv dentro do diret
 
 Para utilizar outros exemplos ou bases de dados próprias, siga os passos abaixo:
 
-    Abra o diretório algorithm-ownership.
-    Abra o arquivo main.py em um editor de texto.
-    Altere o caminho do arquivo de entrada na função recursos.criar_recursos_pydriller(). Exemplo:
+Abra o diretório algorithm-ownership.
+Abra o arquivo main.py em um editor de texto.
+Altere o caminho do arquivo de entrada na função recursos.criar_recursos_pydriller(). Exemplo:
 
 ```python
 
 recursos.criar_recursos_pydriller("../../algorithm-ownership/data/data_amazon-freertos.csv")
 ```
-    Para alterar o nome do arquivo de saída, edite a função mom.save():
+Para alterar o nome do arquivo de saída, edite a função mom.save():
 
 ```python
 
