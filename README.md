@@ -49,7 +49,7 @@ Após realizar as alterações, execute novamente o programa com:
 
 ## Acessando os Notebooks de Análise
 
-Dentro do repositório, existe um diretório chamado `data analysis` que contém notebooks Jupyter para cada projeto, organizados em pastas específicas. Esses notebooks fornecem análises detalhadas dos dados de cada projeto.
+Dentro do repositório existe um diretório chamado `data analysis` que contém notebooks Jupyter para cada projeto, organizados em pastas específicas. Esses notebooks fornecem análises detalhadas dos dados de cada projeto.
 
 ### Abrindo os Notebooks
 
