@@ -5,7 +5,7 @@ recursos = Rec.Recursos.get_instance()
 
 def main():
    # print(f"ID da instância de Recursos: {id(recursos)}")
-    recursos.criar_recursos_pydriller("../algorithm-ownership/data/data_contiki-ng.csv")
+    recursos.criar_recursos_pydriller("../algorithm-ownership/data/data_FreeRTOS.csv")
     
     mom = Mom.Mom()
     mom.calcular_propriedade_mom()
