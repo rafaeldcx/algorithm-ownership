@@ -13,12 +13,13 @@ Esta ferramenta utiliza como entrada bases de dados em CSV geradas pela mineraç
 ```bash
 :~$ git https://github.com/rafaeldcx/algorithm-ownership
 :~$ cd algorithm-ownership
+```
 
 2. O código principal está no arquivo main.py. Por padrão, ele está configurado para utilizar um exemplo com o arquivo data_FreeRTOS.csv. Para rodar o exemplo, basta executar o seguinte comando:
 
 ```bash
 :~$ python3 main.py
-
+```
 Isso irá gerar uma matriz de propriedade no arquivo exemplo.csv dentro do diretório principal.Na execução, o programa mostrará que está "Calculando a propriedade...", indicando uma lista de diretórios e os valores de centralidade desses diretórios dentro do projeto. O programa demonstra a geração do arquivo CSV com a mensagem "Salvando em exemplo.csv". Após gerar esse arquivo, ele exibirá a mensagem "Escrito com sucesso".
 
 ## **Personalizando o Código**
@@ -32,18 +33,19 @@ Para utilizar outros exemplos ou bases de dados próprias, siga os passos abaixo
 ```python
 
 recursos.criar_recursos_pydriller("../../algorithm-ownership/data/data_amazon-freertos.csv")
-
+```
     Para alterar o nome do arquivo de saída, edite a função mom.save():
 
 ```python
 
 mom.save("seu_arquivo_saida.csv")
-
+```
 Após realizar as alterações, execute novamente o programa com:
 
 ```bash
 
 :~$ python3 main.py
+```
 
 ## Acessando os Notebooks de Análise
 
