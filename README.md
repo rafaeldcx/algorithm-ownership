@@ -11,7 +11,7 @@ Esta ferramenta utiliza como entrada bases de dados em CSV geradas pela mineraç
 1. Clone o repositório e acesse o diretório `algorithm-ownership`:
 
 ```bash
-:~$ git https://github.com/rafaeldcx/algorithm-ownership
+:~$ git clone https://github.com/rafaeldcx/algorithm-ownership
 :~$ cd algorithm-ownership
 ```
 
